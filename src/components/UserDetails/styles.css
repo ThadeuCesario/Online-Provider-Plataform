@@ -1,0 +1,65 @@
+.user-container {
+  margin: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+}
+
+.userPhoto {
+  border-radius: 50%;
+}
+
+.userPhoto:hover {
+  cursor: pointer;
+}
+
+.cardDetails {
+  font-size: 1rem;
+  text-align: center;
+  width: 60%;
+}
+
+.nameUser {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-container {
+    display: flex;
+    flex-direction: collum;
+    width: 100%;
+  }
+
+  .userPhoto {
+    width: 100%;
+    min-width: 200px;
+    margin: 0 16px 0 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
