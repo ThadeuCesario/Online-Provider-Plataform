@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import apiService from "../../services/api";
+import { IconName } from "react-icons/fi";
 import "./styles.css";
 
 const UserDetails = props => {
